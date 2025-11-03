@@ -30,12 +30,12 @@ const power = function (base, expo) {
 };
 
 const factorial = function (num) {
-  let fibonacci = 1;
+  let prod = 1;
   for (let i = num; i > 0; i--) {
-    fibonacci *= i;
+    prod *= i;
   }
 
-  return fibonacci;
+  return prod;
 };
 
 // Do not edit below this line
